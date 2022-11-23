@@ -1,0 +1,9 @@
+[package]
+name = "coati"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gw-types = { git = "https://github.com/nervosnetwork/godwoken.git", rev = "a7fd9243a1e6e185671f2514c04a66b54313e238", default-features = true }
